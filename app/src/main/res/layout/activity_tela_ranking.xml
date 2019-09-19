@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#030303"
+        android:shadowColor="#00FFFFFF"
+        android:text="Ranking"
+        android:textColor="#E1FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtRanking"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FFEB3B"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:layout_marginBottom="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#03A9F4"
+            android:gravity="center"
+            android:text="Acertos:"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtResposta"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F80505"
+            android:gravity="center"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="9dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnResponderNovamente"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#0A0A0A"
+            android:text="RESPONDER NOVAMENTE"
+            android:textColor="#FCFFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnTelaPrincipal"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="9dp"
+            android:layout_weight="1"
+            android:background="#161616"
+            android:text="TELA PRINCIPAL"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
